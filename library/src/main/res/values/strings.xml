@@ -1,0 +1,5 @@
+<resources>
+    <string name="list_nodata">没有更多数据了~</string>
+    <string name="load_more_error">加载失败,点击重试~</string>
+    <string name="loading">加载中...</string>
+</resources>
