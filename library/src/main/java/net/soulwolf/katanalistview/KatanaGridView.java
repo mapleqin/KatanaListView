@@ -1,6 +1,7 @@
 package net.soulwolf.katanalistview;
 
 import android.content.Context;
+import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.AbsListView;
@@ -122,6 +123,15 @@ public class KatanaGridView extends GridViewWithHeaderAndFooter implements OnScr
             super.layoutChildren();
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+
+    @Override
+    protected void dispatchDraw(Canvas canvas) {
+        try {
+            super.dispatchDraw(canvas);
+        }catch (IndexOutOfBoundsException e){
+            // Nothing
         }
     }
 
