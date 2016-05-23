@@ -7,7 +7,7 @@ This is a realization of the ListView and GridView LAC library contained more fe
   	    <groupId>net.soulwolf.widget</groupId>
 		<url>https://dl.bintray.com/soulwolf/maven</url>
   	    <artifactId>KatanaListView</artifactId>
-  	    <version>1.0.0</version>
+  	    <version>1.0.1</version>
 	</dependency>
 ## Gradle
 	allprojects {
@@ -19,7 +19,7 @@ This is a realization of the ListView and GridView LAC library contained more fe
        }
 	}
 	
-	compile 'net.soulwolf.widget:KatanaListView:1.0.0'
+	compile 'net.soulwolf.widget:KatanaListView:1.0.1'
 
 ## Developed by
  Ching Soulwolf - <a href='javascript:'>Ching.Soulwolf@gmail.com</a>
